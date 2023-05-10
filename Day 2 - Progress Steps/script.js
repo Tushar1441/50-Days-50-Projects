@@ -1,3 +1,4 @@
+
 var circles = document.querySelectorAll('.circle');
 let prev = document.getElementById('prev');
 let next = document.getElementById('next');
