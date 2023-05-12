@@ -6,7 +6,6 @@
 
 This is a mini web development project created using HTML, CSS, and JavaScript. It showcases a hidden search bar that expands when clicked. This project is part of the "50 Days, 50 Projects" challenge.
 
-Check out the live demo of this project [here](https://tushar1441.github.io/50-Days-50-Projects/Day%204%20-%20Hidden%20Search/index.html).
 
 ## Concepts Used
 
@@ -20,3 +19,9 @@ The JavaScript file contains functions for toggling the visibility of the search
 ## Additional Notes
 
 This project demonstrates the use of basic HTML, CSS, and JavaScript concepts to create an engaging user interface. The hidden search bar is a common feature in many modern websites, and by understanding how it is built, you can begin to create your own custom designs.
+
+## How to Run the Project
+
+To run this project, simply download the source code from the GitHub repository and open the "index.html" file in your web browser. You can also view a live demo of this project by clicking on the following link:
+
+Check out the live demo of this project [here](https://tushar1441.github.io/50-Days-50-Projects/Day%204%20-%20Hidden%20Search/index.html)
