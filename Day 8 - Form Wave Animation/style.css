@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+/* rgba(0, 0, 0, 0.4); */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Poppins' , sans-serif;
+  overflow: hidden;
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: steelblue;
+  color: #fff; 
+}
+
+.container{
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 40px;
+  border-radius: 5px;
+}
+
+.container h1{
+  text-align: center;
+}
+
+.form-content{
+  position: relative;
+  width: 300px;
+  margin: 20px 0 40px 0px;
+}
+
+.form-content label{
+  position: absolute;
+  top: 15px;
+  left: 0;
+  pointer-events: none;
+}
+
+.form-content input{
+  display: block;
+  font-size: 18px;
+  width: 100%;
+  border: none;
+  background: transparent;
+  border-bottom: solid 2px #fff;
+  color: #fff;
+  font-family: inherit;
+  padding: 15px 0;
+}
+
+.form-content input:focus,
+.form-content input:valid{
+  outline: none;
+  border-bottom-color: lightblue;
+}
+
+
+
+
+.btn{
+  background-color: rgb(131, 163, 190);
+  border: none;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  width: 100%;
+  padding: 15px;
+  font-family: inherit;
+  font-weight: 500;
+  cursor: pointer;
+  transition: transform 0.1s ease;
+}
+
+.btn:active{
+  transform: scale(0.98);
+}
+
+.register{
+  font-size: 14px;
+}
+
+.register a{
+  color: lightblue;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.form-content label span {
+  display: inline-block;
+  font-size: 18px;
+  min-width: 5px;
+  transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.form-content input:focus + label span,
+.form-content input:valid + label span {
+  color: lightblue;
+  transform: translateY(-30px);
+}
