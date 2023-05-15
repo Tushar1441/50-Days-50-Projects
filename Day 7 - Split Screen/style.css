@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto' , sans-serif;
+  overflow: hidden;
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  height: 100vh;
+  transition: width 1s linear;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+h1{
+  position: absolute;
+  top: 45%;
+  color: #fff;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 20px;
+  /* white-space: nowrap; */
+
+}
+
+button{
+  position: absolute;
+  top: 60%;
+  font-size: 16px;
+  padding: 15px 40px;
+  background: transparent;
+  border: solid 3px #fff;
+  color: #fff;
+  font-weight: 600;
+}
+
+.box.show{
+  width: 75vw;
+}
+
+.box.notshow{
+  width: 25vw;
+
+}
+
+.ps button:hover{
+  background-color: rgba(87, 84, 236, 1);
+  border-color: rgba(87, 84, 236, 1);
+}
+
+.xbox button:hover{
+  background-color: rgba(28, 122, 28, 1);
+  border-color: rgba(28, 122, 28, 1);;
+}
+
+
+.ps{
+  background-image:url(ps.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  /* backdrop-filter: drop-shadow(4px 4px 10px blue); */
+}
+
+.ps::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: rgba(87, 84, 236, 0.7);
+}
+
+
+.xbox{
+  background-image:url(xbox.jpg);
+  background-position: start;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+.xbox::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: rgba(43, 43, 43, 0.8);
+}
