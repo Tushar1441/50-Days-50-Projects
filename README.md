@@ -16,6 +16,10 @@ This project is a [mini project number and name] and was built on day [day numbe
 |[Scroll Animation](https://github.com/Tushar1441/50-Days-50-Projects/tree/057690c03465699c89a56bdcf321463cc8eec015/Day%206%20-%20Scroll%20Animation)| [Live Demo](https://scroll-animation001.netlify.app/)|
 |[Split Screen](https://github.com/Tushar1441/50-Days-50-Projects/tree/057690c03465699c89a56bdcf321463cc8eec015/Day%207%20-%20Split%20Screen)| [Live Demo](https://split-screen001.netlify.app/)|
 |[Form Wavy Animation](https://github.com/Tushar1441/50-Days-50-Projects/tree/057690c03465699c89a56bdcf321463cc8eec015/Day%208%20-%20Form%20Wave%20Animation)| [Live Demo](https://form-wave-animation001.netlify.app/)|
+|[Sound Board](https://github.com/Tushar1441/50-Days-50-Projects/tree/bb04ad3c074c327a8e87acf3b97e7675eb83d6d8/Day%209%20-%20Sound%20Board)| [Live Demo](https://soundboard001.netlify.app/)|
+|[Dad Jokes Generator](https://github.com/Tushar1441/50-Days-50-Projects/tree/main/Day%2010%20-%20Dad%20Jokes%20Generator)| [Live Demo](https://dad-jokes-generator001.netlify.app/)|
+|[Event Keynodes](https://github.com/Tushar1441/50-Days-50-Projects/tree/bb04ad3c074c327a8e87acf3b97e7675eb83d6d8/Day%2011%20-%20Event%20Keycodes)| [Live Demo](https://event-keynodes001.netlify.app/)|
+|[FAQ Collapse](https://github.com/Tushar1441/50-Days-50-Projects/tree/bb04ad3c074c327a8e87acf3b97e7675eb83d6d8/Day%2012%20-%20%20FAQ%20Collapse)| [Live Demo](https://faq-collapse001.netlify.app/)|
 
 
 
